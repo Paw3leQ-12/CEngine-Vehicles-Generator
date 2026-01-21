@@ -13,6 +13,7 @@ QSpinBox, QDoubleSpinBox, QLineEdit, QComboBox, QCheckBox::indicator{
     padding: 1px;
     border: 1px solid #F56151;
     background: #ffefee;
+    color: #922;
 }
 
 QComboBox::drop-down{
@@ -27,6 +28,7 @@ QComboBox::down-arrow{
 QComboBox QAbstractItemView{
     background: #ffefee;
     border: none;
+    color: #922;
 }
 
 QComboBox QAbstractItemView::item:hover{
@@ -44,17 +46,35 @@ QCheckBox::indicator:checked{
 }
 
 QSpinBox::up-button, QDoubleSpinBox::up-button{
+    subcontrol-origin: border;
+    subcontrol-position: right center;
     border: none;
-    image: url(src/ui/img/arrow-up);
+    width: 20px;
+    height: 20px;
+    image: url(src/ui/img/arrow-up.png);
 }
 
 QSpinBox::up-button:pressed, QDoubleSpinBox::up-button:pressed{
     background: #ffc8c4;
 }
 
-QSpinBox::down-button, QComboBox::down-arrow, QDoubleSpinBox::down-button{
+QSpinBox::down-button, QDoubleSpinBox::down-button{
     border: none;
-    image: url(src/ui/img/arrow-down);
+    image: url(src/ui/img/arrow-down.png);
+    subcontrol-origin: border;
+    subcontrol-position: right center;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+QComboBox::down-arrow{
+    border: none;
+    image: url(src/ui/img/arrow-down.png);
+    subcontrol-origin: border;
+    subcontrol-position: right center;
+    width: 20px;
+    height: 20px;
 }
 
 QSpinBox::down-button:pressed, QComboBox::down-arrow:pressed, QDoubleSpinBox::down-button:pressed{

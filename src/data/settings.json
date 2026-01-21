@@ -1,6 +1,6 @@
 {
     "directory": {
-        "default": "generated",
+        "default": "generated_files",
         "user": false
     },
     "minSpacing": {
