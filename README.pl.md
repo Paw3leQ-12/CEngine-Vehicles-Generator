@@ -4,7 +4,7 @@ Polski | [English](README.md)
 ![Python](https://img.shields.io/badge/python-3.13-blue?style=for-the-badge)
 ![Licencja](https://img.shields.io/badge/Licencja-MIT-yellow?style=for-the-badge)
 
-# CEngine Vehicles Generator (v0.1.0)
+# CEngine Vehicles Generator (v0.1.x)
 
 CEngine Vehicles Generator to generator plików `.prefab` dla silnika wyprodukowanego przez Techland (CEngine), bazujący na Pythonie, który jest w stanie generować pojazdy we wcześniej wspomnianych plikach `.prefab`. Narzędzie to jest przeznaczone do pracy z wersją silnika używaną do stworzenia *Dying Light 2*. Narzędzie to redukuje żmudną pracę nad rozkładaniem pojazdów na mapie społeczności, umożliwiając generowanie ich w wielu modelach (wciąż nie wszystkich), zmienianie tekstury danego pojazdu czy sposobu ich rozłożenia.
 
