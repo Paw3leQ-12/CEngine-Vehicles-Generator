@@ -1,6 +1,6 @@
 # **MIT License**
 
-**Copyright (c) 2025 Paw3leQ**
+**Copyright (c) 2026 Paw3leQ**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
