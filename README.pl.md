@@ -1,4 +1,4 @@
-Polski | [English]( .md)
+Polski | [English](README.md)
 
 ![Status](https://img.shields.io/badge/Status-BETA-red?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.13-blue?style=for-the-badge)
