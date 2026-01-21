@@ -1,0 +1,262 @@
+{
+    "compact" : {
+        "meshName" : "veh_compact_a",
+        "hitbox" : [0.0004999, 0.9110168, 0.1444621, 1.1418215, 0.915793, 2.2490036],
+        "skins" : ["a", "b", "c", "d"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 4.48,
+            "compact open" : 4.48,
+            "combi" : 4.32,
+            "sedan" : 4.32,
+            "bus" : 8.56,
+            "van assistance" : 5.20,
+            "van pack" : 5.28,
+            "sprinter pack" : 5.28,
+            "ambulance" : 5.28,
+            "tank" : 6.64,
+            "military truck" : 6.40
+        },
+        "trunks" : {
+            "hitbox" : [-0.0000739, 1.1830166, 0.1040018, 0.83211, 0.4007471, 0.1728724],
+            "mesh" : "veh_compact_a_trunk_anm",
+            "positions": [
+            false,
+            {"index" : 1, "trunkRotationX" : 0.0, "trunkRotationY" : 180.0, "trunkPositionY" : 0.00, "trunkPositionZ" : -1.68},
+            {"index" : 2, "trunkRotationX" : 20.0, "trunkRotationY" : 180.0, "trunkPositionY" : 0.09, "trunkPositionZ" : -2.1}
+            ]
+        }
+    },
+    "compact open" : {
+        "meshName" : "veh_compact_a_open",
+        "hitbox" : [0.0042662, 0.9109753, 0.1444616, 1.1539425, 0.9157515, 2.2490036],
+        "skins" : ["color_a", "color_b", "color_c", "color_d", "color_e", "Default"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 4.48,
+            "compact open" : 4.48,
+            "combi" : 4.32,
+            "sedan" : 4.32,
+            "bus" : 8.56,
+            "van assistance" : 5.20,
+            "van pack" : 5.28,
+            "sprinter pack" : 5.28,
+            "ambulance" : 5.28,
+            "tank" : 6.64,
+            "military truck" : 6.40
+        },
+        "trunks" : false
+    },
+    "combi" : {
+        "meshName" : "veh_combi_a",
+        "hitbox" : [0.0010477, 0.7092773, -0.2165181, 1.0218564, 0.7191598, 2.4960176],
+        "skins" : ["color_a", "color_b", "color_c"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 5.04,
+            "compact open" : 5.04,
+            "combi" : 5.04,
+            "sedan" : 5.04,
+            "bus" : 9.12,
+            "van assistance" : 5.76,
+            "van pack" : 5.84,
+            "sprinter pack" : 5.84,
+            "ambulance" : 5.84,
+            "tank" : 7.20,
+            "military truck" : 7.12
+        },
+        "trunks" : false
+    },
+    "sedan" : {
+        "meshName" : "veh_sedan_a",
+        "hitbox" : [0.0067802, 0.7235802, -0.2165181, 1.0161248, 0.7370613, 2.4960176],
+        "skins" : ["a", "b", "c", "d", "e", "Taxi", "Police"],
+        "skinsBrokenGlass" : true,
+        "moves" : {
+            "compact" : 5.04,
+            "compact open" : 5.04,
+            "combi" : 5.04,
+            "sedan" : 5.04,
+            "bus" : 9.12,
+            "van assistance" : 5.76,
+            "van pack" : 5.84,
+            "sprinter pack" : 5.84,
+            "ambulance" : 5.84,
+            "tank" : 7.20,
+            "military truck" : 7.12
+        },
+        "trunks" : {
+            "hitbox" : [-0.0011452, 0.5318463, -0.2289141, 0.6254121, 0.5318463, 0.4031523],
+            "mesh" : "veh_sedan_a_trunk",
+            "positions": [
+            false,
+            {"index" : 1, "trunkRotationX" : 0.0, "trunkRotationY" : 0.0, "trunkPositionY" : 0.00, "trunkPositionZ" : -2.04},
+            {"index" : 2, "trunkRotationX" : 15.0, "trunkRotationY" : 0.0, "trunkPositionY" : 0.04, "trunkPositionZ" : -2.30}
+            ]
+        }
+    },
+    "bus" : {
+        "meshName" : "veh_bus_b",
+        "hitbox" : [-0.0252275, 1.9363745, -0.0673236, 2.1782963, 1.9363745, 6.3677701],
+        "skins" : ["bear_beer_a", "Car", "ChickenPie_b", "Genify_a"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 9.12,
+            "compact open" : 9.12,
+            "combi" : 8.80,
+            "sedan" : 8.80,
+            "bus" : 12.56,
+            "van assistance" : 9.52,
+            "van pack" : 9.52,
+            "sprinter pack" : 9.60,
+            "ambulance" : 9.60,
+            "tank" : 11.92,
+            "military truck" : 11.04
+        },
+        "trunks" : {
+            "hitbox" : [0.0, 1.6224459, -0.4561948, 1.7082309, 1.6224459, 4.7444443],
+            "mesh" : "veh_bus_b_adv_decal_a",
+            "positions": [
+            {"index" : 0, "trunkRotationX" : 0.00, "trunkRotationY" : 0.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00}
+            ]
+        }
+    },
+    "van assistance" : {
+        "meshName" : "veh_spe_van_a_assistance",
+        "hitbox" : [0.002022, 1.2085214, -0.6536874, 1.2755632, 1.223801, 3.7432661],
+        "skins" : ["Default"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 6.64,
+            "compact open" : 6.64,
+            "combi" : 6.64,
+            "sedan" : 6.64,
+            "bus" : 10.72,
+            "van assistance" : 7.44,
+            "van pack" : 7.60,
+            "sprinter pack" : 7.52,
+            "ambulance" : 7.52,
+            "tank" : 9.04,
+            "military truck" : 8.72
+        },
+        "trunks" : false
+    },
+    "van pack" : {
+        "meshName" : "veh_spe_van_a_pack_base",
+        "hitbox" : [0.0011022, 1.10455, -0.0255017, 1.2746433, 1.1242588, 3.1527085],
+        "skins" : ["a", "b", "c", "d", "e"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 5.52,
+            "compact open" : 5.52,
+            "combi" : 5.44,
+            "sedan" : 5.44,
+            "bus" : 10.72,
+            "van assistance" : 6.32,
+            "van pack" : 6.32,
+            "sprinter pack" : 6.32,
+            "ambulance" : 6.32,
+            "tank" : 7.84,
+            "military truck" : 7.52
+        },
+        "trunks" : {
+            "hitbox" : [-0.0003197, 1.4893697, -0.9218666, 1.0202385, 1.4893697, 2.3236846],
+            "mesh" : "veh_spe_van_a_pack_top",
+            "positions": [
+            false,
+            {"index" : 1, "trunkRotationX" : 0.00, "trunkRotationY" : 0.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00}
+            ]
+        }
+    },
+    "ambulance" : {
+        "meshName" : "veh_spe_van_a_pack_privileged_a",
+        "hitbox" : [0.002022, 1.4901494, -0.24896, 1.2755632, 1.4929571, 3.3498029],
+        "skins" : ["Default"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 6.08,
+            "compact open" : 6.08,
+            "combi" : 6.00,
+            "sedan" : 6.00,
+            "bus" : 10.08,
+            "van assistance" : 6.72,
+            "van pack" : 6.80,
+            "sprinter pack" : 6.80,
+            "ambulance" : 6.80,
+            "tank" : 8.96,
+            "military truck" : 7.92
+        },
+        "trunks" : false
+    },
+    "sprinter pack" : {
+        "meshName" : "veh_spe_van_a_pack_privileged_b",
+        "hitbox" : [0.0, 1.4266229, -0.2727847, 1.2775851, 1.4343017, 3.3736276],
+        "skins" : ["Default"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 6.08,
+            "compact open" : 6.08,
+            "combi" : 6.00,
+            "sedan" : 6.00,
+            "bus" : 10.08,
+            "van assistance" : 6.72,
+            "van pack" : 6.80,
+            "sprinter pack" : 6.80,
+            "ambulance" : 6.80,
+            "tank" : 8.96,
+            "military truck" : 7.92
+        },
+        "trunks" : false
+    },
+    "tank" : {
+        "meshName" : "veh_military_tank_a",
+        "hitbox" : [0.0, 1.1160546, -0.243731, 2.8228094, 1.1144157, 4.6478309],
+        "skins" : ["Default"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 6.96,
+            "compact open" : 6.96,
+            "combi" : 6.96,
+            "sedan" : 6.96,
+            "bus" : 11.52,
+            "van assistance" : 7.92,
+            "van pack" : 7.92,
+            "sprinter pack" : 7.92,
+            "ambulance" : 7.92,
+            "tank" : 10.08,
+            "military truck" : 9.36
+        },
+        "trunks" : {
+            "hitbox" : [-0.0040814, 2.7201349, 0.6098108, 1.9443092, 0.9770414, 4.5164599],
+            "mesh" : "veh_military_tank_a_turret",
+            "positions": [
+            {"index" : 0, "trunkRotationX" : 0.00, "trunkRotationY" : 23.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00},
+            {"index" : 1, "trunkRotationX" : 0.00, "trunkRotationY" : -18.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00},
+            {"index" : 2, "trunkRotationX" : 0.00, "trunkRotationY" : 42.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00},
+            {"index" : 3, "trunkRotationX" : 0.00, "trunkRotationY" : -36.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00},
+            {"index" : 4, "trunkRotationX" : 0.00, "trunkRotationY" : 74.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00},
+            {"index" : 5, "trunkRotationX" : 0.00, "trunkRotationY" : -63.00, "trunkPositionY" : 0.00, "trunkPositionZ" : 0.00}
+            ]
+        }
+    },
+    "military truck" : {
+        "meshName" : "veh_military_truck_a_open",
+        "hitbox" : [0.0, 1.4266229, -0.2727847, 1.2775851, 1.4343017, 3.3736276],
+        "skins" : ["Default", "Civil"],
+        "skinsBrokenGlass" : false,
+        "moves" : {
+            "compact" : 7.36,
+            "compact open" : 7.36,
+            "combi" : 7.12,
+            "sedan" : 7.12,
+            "bus" : 11.44,
+            "van assistance" : 8.00,
+            "van pack" : 8.08,
+            "sprinter pack" : 8.16,
+            "ambulance" : 8.16,
+            "tank" : 9.68,
+            "military truck" : 9.52
+        },
+        "trunks" : false
+    }
+}

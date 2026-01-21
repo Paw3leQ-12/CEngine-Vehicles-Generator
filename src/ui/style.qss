@@ -1,0 +1,70 @@
+QPushButton{
+    background: #F56151;
+    color: #fff;
+    border: none;
+    padding: 3px;
+}
+
+QPushButton:hover{
+    background: #FF8F82;
+}
+
+QSpinBox, QDoubleSpinBox, QLineEdit, QComboBox, QCheckBox::indicator{
+    padding: 1px;
+    border: 1px solid #F56151;
+    background: #ffefee;
+}
+
+QComboBox::drop-down{
+    border: none;
+}
+
+QComboBox::down-arrow{
+    height: 20px;
+    width: 15px;
+}
+
+QComboBox QAbstractItemView{
+    background: #ffefee;
+    border: none;
+}
+
+QComboBox QAbstractItemView::item:hover{
+    background: #ffc8c4;
+    color: #000;
+    border: none;
+}
+
+QCheckBox::indicator:hover{
+    background: #FF8F82;
+}
+
+QCheckBox::indicator:checked{
+    background: #F56151;
+}
+
+QSpinBox::up-button, QDoubleSpinBox::up-button{
+    border: none;
+    image: url(src/ui/img/arrow-up);
+}
+
+QSpinBox::up-button:pressed, QDoubleSpinBox::up-button:pressed{
+    background: #ffc8c4;
+}
+
+QSpinBox::down-button, QComboBox::down-arrow, QDoubleSpinBox::down-button{
+    border: none;
+    image: url(src/ui/img/arrow-down);
+}
+
+QSpinBox::down-button:pressed, QComboBox::down-arrow:pressed, QDoubleSpinBox::down-button:pressed{
+    background: #ffc8c4;
+}
+
+QFrame[class="separator"]{
+    color: #ffc8c4;
+}
+
+QScrollArea{
+    border: 1px solid #ffc8c4;
+}

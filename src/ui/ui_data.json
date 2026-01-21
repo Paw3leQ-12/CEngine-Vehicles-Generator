@@ -1,0 +1,106 @@
+{
+    "checkBoxes": [
+        {
+            "label": "Compact",
+            "value": "compact"
+        },
+        {
+            "label": "Compact Open",
+            "value": "compact open"
+        },
+        {
+            "label": "Combi",
+            "value": "combi"
+        },
+        {
+            "label": "Sedan",
+            "value": "sedan"
+        },
+        {
+            "label": "Bus",
+            "value": "bus"
+        },
+        {
+            "label": "Tow truck",
+            "value": "van assistance"
+        },
+        {
+            "label": "Small truck",
+            "value": "van pack"
+        },
+        {
+            "label": "Sprinter",
+            "value": "sprinter pack"
+        },
+        {
+            "label": "Ambulance",
+            "value": "ambulance"
+        },
+        {
+            "label": "Tank",
+            "value": "tank"
+        },
+        {
+            "label": "Military truck",
+            "value": "military truck"
+        }
+    ],
+    "presets": [
+        {
+            "label": "Nothing",
+            "values": [],
+            "disabledSkins": {}
+        },
+        {
+            "label": "Everything",
+            "values": [
+                "compact",
+                "compact open",
+                "combi",
+                "sedan",
+                "bus",
+                "van assistance",
+                "van pack",
+                "sprinter pack",
+                "sprinter",
+                "ambulance",
+                "tank",
+                "military truck"
+            ],
+            "disabledSkins": {}
+        },
+        {
+            "label": "Passenger cars",
+            "values": [
+                "compact",
+                "compact open",
+                "combi",
+                "sedan"
+            ],
+            "disabledSkins": {
+                "sedan": [
+                    "Police"
+                ]
+            }
+        },
+        {
+            "label": "City staff",
+            "values": [
+                "tank",
+                "military truck",
+                "sedan",
+                "ambulance"
+            ],
+            "disabledSkins": {
+                "sedan": [
+                    "a",
+                    "b",
+                    "c",
+                    "d",
+                    "e",
+                    "Taxi"
+                ]
+            }
+        }
+    ]
+}

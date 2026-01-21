@@ -1,0 +1,22 @@
+{
+    "directory": {
+        "default": "generated",
+        "user": false
+    },
+    "minSpacing": {
+        "default": 0.0,
+        "user": false
+    },
+    "maxSpacing": {
+        "default": 0.45,
+        "user": false
+    },
+    "displacement": {
+        "default": 0.45,
+        "user": false
+    },
+    "prefix": {
+        "default": "builder",
+        "user": false
+    }
+}
