@@ -23,7 +23,7 @@ class PLabeledSpinBox(QWidget):
 
         # Modifiers
 
-        self.spinBox.setFixedWidth(100)
+        self.spinBox.setFixedWidth(150)
 
         # Layout
 
@@ -59,7 +59,7 @@ class PLabeledDoubleSpinBox(QWidget):
 
         # Modifiers
 
-        self.spinBox.setFixedWidth(100)
+        self.spinBox.setFixedWidth(150)
 
         # Layout
 
@@ -89,7 +89,7 @@ class PLabeledLineEdit(QWidget):
 
         # Modifiers
 
-        self.lineEdit.setFixedWidth(100)
+        self.lineEdit.setFixedWidth(150)
         self.lineEdit.textChanged.connect(self.update_tool_tip)
 
         # Layout
@@ -159,7 +159,7 @@ class PLabeledComboBox(QWidget):
 
         # Modifiers
 
-        self.comboBox.setFixedWidth(100)
+        self.comboBox.setFixedWidth(150)
         self.comboBox.addItems(values)
 
         # Layout
@@ -215,8 +215,8 @@ class PSetting(QWidget):
 
         # Modifiers
 
-        buttonApply.setFixedWidth(65)
-        buttonRestore.setFixedWidth(65)
+        buttonApply.setFixedWidth(85)
+        buttonRestore.setFixedWidth(100)
 
         # Layout
 
